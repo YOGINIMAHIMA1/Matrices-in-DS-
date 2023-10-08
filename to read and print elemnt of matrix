@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int m, n,i,j;
+cout<< "no of rows is m:";
+
+cin>>m;
+cout<<"no of colums is n:";
+cin>>n;
+int A[m][n];
+for(int i=0;i<n;i++
+{
+  cin>>A[i][j];
+}
+for(int i=0;i<m;i++)
+{
+for(int j=0;j<n;j++)
+{
+  cout<<A[i][j]<<" ";
+}
+cout<<endl;
+}
