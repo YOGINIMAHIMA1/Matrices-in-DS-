@@ -9,9 +9,12 @@ cin>>m;
 cout<<"no of colums is n:";
 cin>>n;
 int A[m][n];
-for(int i=0;i<n;i++
+for(int i=0;i<m;i++)
 {
+    for(int j=0;j<n;j++)
+    {
   cin>>A[i][j];
+}
 }
 for(int i=0;i<m;i++)
 {
@@ -20,4 +23,6 @@ for(int j=0;j<n;j++)
   cout<<A[i][j]<<" ";
 }
 cout<<endl;
+}
+
 }
